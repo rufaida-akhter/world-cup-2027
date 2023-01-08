@@ -1,0 +1,36 @@
+/* site font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: azure;
+    align-items: center;
+    color: #ffffff;
+
+}
+
+/* top banner section  */
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(24, 22, 22);
+    width: 70%;
+    padding-left: 30px;
+    border-radius: 1px;
+}
+
+.top-container div {
+    width: 50%;
+}
+
+.top-container div a {
+    background-color: rgb(245, 47, 33);
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #ffffff;
+}
