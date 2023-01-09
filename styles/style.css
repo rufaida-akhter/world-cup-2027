@@ -21,16 +21,58 @@ section {
     background-color: rgb(24, 22, 22);
     width: 70%;
     padding-left: 30px;
-    border-radius: 1px;
+    border-radius: 3px;
+}
+
+.container {
+    height: 600px;
+    display: flex;
+    align-items: stretch;
+    width: 70%;
+
+
+}
+
+.left {
+    width: 200px;
+    border: 1px solid red;
 }
 
 .top-container div {
     width: 50%;
 }
 
+#box1 {
+    flex-grow: 1;
+}
+
 .top-container div a {
     background-color: rgb(245, 47, 33);
     padding: 10px 30px;
     text-decoration: none;
+    border-radius: 10px;
     color: #ffffff;
 }
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+
+}
+
+.button a {
+    background-color: rgb(245, 47, 33);
+    padding: 10px 30px;
+    margin: 1px;
+    text-decoration: none;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+
+
+/* responsive code  */
+@media screen {}
